@@ -44,7 +44,7 @@ app.post("/feedback", async (req, res) => {
 
   const mailOptions = {
     from: process.env.EMAIL_USER,
-    to: "eliseev88@gmail.com",
+    to: "supp@asdhere.net",
     subject: "Новое обращение с сайта",
     text: `Письмо от: ${contact}\nСообщение: ${message}`,
   };
